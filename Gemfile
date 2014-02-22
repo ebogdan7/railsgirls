@@ -29,12 +29,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group production do
-gem 'pg'
+group :production do
+	gem 'pg'
 end
 
-group development do
-gem 'sqlite3'
+group :development do
+	gem 'sqlite3'
 end 
 
 
